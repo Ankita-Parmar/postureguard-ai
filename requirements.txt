@@ -15,7 +15,7 @@ mysql-connector-python==8.3.0
 bcrypt==4.1.2
 
 # Computer Vision & Pose Detection
-opencv-python==4.9.0.80
+opencv-python-headless==4.9.0.80
 mediapipe==0.10.35
 
 # Utilities
