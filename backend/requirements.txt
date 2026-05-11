@@ -1,0 +1,23 @@
+# ============================================================
+# PostureGuard AI - Python Dependencies
+# Install with: pip install -r requirements.txt
+# ============================================================
+
+# Web framework
+Flask==3.0.0
+Flask-CORS==4.0.0           # Allow React frontend to call Flask API
+Flask-JWT-Extended==4.6.0   # JWT token authentication
+
+# Database
+mysql-connector-python==8.3.0
+
+# Password hashing
+bcrypt==4.1.2
+
+# Computer Vision & Pose Detection
+opencv-python-headless==4.9.0.80
+mediapipe==0.10.35
+
+# Utilities
+python-dotenv==1.0.0        # Load .env config file
+Werkzeug==3.0.1             # Flask dependency (request/response)
